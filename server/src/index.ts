@@ -5,7 +5,7 @@ import cors from 'cors';
 const dotenv =require('dotenv');
 const path = require('path');
 
-dotenv.config({ path: path.resolve(__dirname, './.env') });
+dotenv.config({ path: path.resolve(__dirname, '../.env') });
 
 const app: Express=express();
 const port= process.env.PORT || 3000;
