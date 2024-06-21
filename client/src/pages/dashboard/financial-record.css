@@ -1,0 +1,155 @@
+/* Centered container for the app */
+.dashboard-container {
+    width: 80%;
+  }
+  
+  /* General styling for headers within the app */
+  h1,
+  h2 {
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  /* Form and list container */
+  .form-container,
+  .list-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Common class for all buttons */
+  .button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #2980b9;
+  }
+  .button-delete {
+    background-color: #343cdb;
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button-delete:hover {
+    background-color: #343cdb;
+  }
+  
+  /* Common class for all input fields and selects */
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #3498db;
+  }
+  
+  /* Labels for better readability */
+  label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .table-container {
+    margin: 20px;
+    overflow-x: auto; /* Enables horizontal scrolling if the table is too wide */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd; /* Light grey border for cells */
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #3498db; /* Darker blue header background */
+    color: white;
+    font-size: 16px;
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Zebra striping for rows, light grey */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e8f4f8; /* Light blue hover effect for rows */
+  }
+
+  .sign-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    /* margin-top: 4vh; */
+    background-image: url('../auth/image.png'); /* Replace with your signed in background image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .sign-in-subcontainer {
+    max-width: 600px;
+    width: 100%;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .sign-in-subcontainer h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .text-container {
+    margin-bottom: 20px;
+  }
+  
+  .text-container p {
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  /* Button styling */
+  .SignUpButton, .SignInButton {
+    background-color: #4e54c8;
+    color: #fff;
+    font-size: 1em;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .SignUpButton:hover, .SignInButton:hover {
+    background-color: #8f94fb;
+  }
+  
