@@ -1,4 +1,4 @@
-import {SignedIn,SignedOut,SignInButton,SignOutButton,SignUp,SignUpButton} from '@clerk/clerk-react';
+import {SignedIn,SignedOut,SignInButton,SignUpButton} from '@clerk/clerk-react';
 import {Navigate} from 'react-router-dom'
 import '../dashboard/financial-record.css'
 export const Auth=()=> {
