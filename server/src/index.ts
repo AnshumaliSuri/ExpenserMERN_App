@@ -14,7 +14,7 @@ app.use(cors())
 app.use(express.json())
 
 
-const mongoURI:string = process.env.MONGO_URI!;
+const mongoURI:string = `${process.env.MONGO_URI}`;
 mongoose.connect(mongoURI).then(() => console.log("Connected to MongoDB")).catch((err) => console.error("Failed to connect"));
 
 app.use('/financial-records',financialRecordRouter);
